@@ -22,8 +22,7 @@
               "location": "node_modules/stacktrace-js/stacktrace.js:90"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -49,7 +48,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 713000000
+              "duration": 767000000
             }
           },
           {
@@ -62,7 +61,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 43000000
+              "duration": 44000000
             }
           }
         ]
