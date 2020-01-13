@@ -6,7 +6,8 @@ exports.config = {
     './e2e/features/**/*.feature'
   ],
   capabilities: {
-    'browserName': 'chrome'
+    'browserName': 'chrome',
+    'seleniumAddress' : "http://localhost:4444/wd/hub"
   },
   directConnect: true,
 
