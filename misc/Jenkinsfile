@@ -1,0 +1,15 @@
+node {
+   stage('Preparation') {
+     checkout scm
+   }
+   stage('build'){
+       nodejs(nodeJSInstallationName: 'nodejs') {
+       sh 'npm install'
+   }
+   stage('test') {
+     nodejs(nodeJSInstallationName: 'nodejs') {
+       sh 'npm run e2e'
+     }
+   }
+   }
+}
