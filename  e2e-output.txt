@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "App page",
+    "line": 1,
+    "id": "app-page",
+    "tags": [],
+    "uri": "e2e/features/app.feature",
+    "elements": [
+      {
+        "id": "app-page;first-scenario",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "First scenario",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/stacktrace-js/stacktrace.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open app page",
+            "match": {
+              "location": "node_modules/stacktrace-js/stacktrace.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "app page loads",
+            "match": {
+              "location": "node_modules/stacktrace-js/stacktrace.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 713000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "header \"Welcome to app!\" is displayed",
+            "match": {
+              "location": "node_modules/stacktrace-js/stacktrace.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
